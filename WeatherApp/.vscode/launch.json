@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WeatherApp",
+            "request": "launch",
+            "mainClass": "WeatherApp",
+            "projectName": "WeatherApp_e5d68446"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeatherApp",
+            "request": "launch",
+            "mainClass": "WeatherApp",
+            "projectName": "WeatherApp",
+            "vmArgs": "-cp 'bin;lib/json.jar'"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
